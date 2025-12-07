@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: "D:/POLYTECH/3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440/PD/Basman_Chronicles-/Stasis-ChifuPointNClickBranch/Packages/manifest.json"
+    m_FilePath: C:/UnityProjects/reconstructing-moscow/Stasis-ChifuPointNClickBranch/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639001902667393559
-    m_Hash: 1488408054
+      ticks: 639007321520119266
+    m_Hash: 98123106
   m_LockFileStatus:
-    m_FilePath: "D:/POLYTECH/3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440/PD/Basman_Chronicles-/Stasis-ChifuPointNClickBranch/Packages/packages-lock.json"
+    m_FilePath: C:/UnityProjects/reconstructing-moscow/Stasis-ChifuPointNClickBranch/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639001903589772213
-    m_Hash: 1200234327
+      ticks: 639007327417000472
+    m_Hash: 3420032656
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: "D:/POLYTECH/3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440/PD/Basman_Chronicles-/Stasis-ChifuPointNClickBranch/Packages"
-m_EditorVersion: 6000.0.63f1 (9438f9b77a46)
+m_ProjectPath: C:/UnityProjects/reconstructing-moscow/Stasis-ChifuPointNClickBranch/Packages
+m_EditorVersion: 6000.0.47f1 (2ad1ed33fd3b)
 m_ResolvedPackages:
 - packageId: com.h8man.2d.navmeshplus@https://github.com/h8man/NavMeshPlus.git
   testable: 0
   isDirectDependency: 1
   version: 0.2.23
   source: 5
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.h8man.2d.navmeshplus@3fdf1984803c"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.h8man.2d.navmeshplus@3fdf1984803c
   assetPath: Packages/com.h8man.2d.navmeshplus
   name: com.h8man.2d.navmeshplus
   displayName: NavMeshPlus
@@ -58,9 +58,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -92,18 +89,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 
     minimumUnityVersion: 2022.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.2d.sprite@897b7eecf04e"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.2d.sprite@8fd0cfbba1fd
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -137,9 +128,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -166,23 +154,17 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 897b7eecf04ec94126f19c6ce2cba3404cc15178
+  fingerprint: 8fd0cfbba1fdfc9bba6c16c06a2db964a3060046
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 2019.2.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.2d.tilemap@e147c8eadabf"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.2d.tilemap@bcd28ed819cb
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -233,9 +215,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -262,23 +241,17 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: e147c8eadabfbc4e6f7641e357f64358c113276c
+  fingerprint: bcd28ed819cbfe11f1b0e5ae917e2e347f954509
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 2019.2.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ads@4.4.2
   testable: 0
   isDirectDependency: 1
   version: 4.4.2
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.ads@a7b997f68a1d"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.ads@a7b997f68a1d
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -356,7 +329,7 @@ m_ResolvedPackages:
     - 4.12.0
     - 4.16.3
     - 4.16.4
-    recommended: 4.4.3
+    recommended: 4.16.4
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -379,9 +352,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -397,7 +367,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 4.4.2
     nextVersion: 
-    recommendedVersion: 
+    recommendedVersion: 4.16.3
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
@@ -415,18 +385,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 4.4.2
     minimumUnityVersion: 2018.4.18f1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ai.navigation@2.0.9
   testable: 0
   isDirectDependency: 1
   version: 2.0.9
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.ai.navigation@5218e4bf7edc"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -466,6 +430,8 @@ m_ResolvedPackages:
     - 2.0.8
     - 2.0.9
     compatible:
+    - 2.0.7
+    - 2.0.8
     - 2.0.9
     recommended: 2.0.9
     deprecated: []
@@ -502,9 +468,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -518,7 +481,7 @@ m_ResolvedPackages:
     revision: 91b1bd9119720d8e48b9f9de9ad18da1e8c1088e
     path: 
   unityLifecycle:
-    version: 2.0.9
+    version: 2.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -545,20 +508,14 @@ m_ResolvedPackages:
   fingerprint: 5218e4bf7edc04fcad4ed3836c1c41aef334b996
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.9
+    minimumPackageVersion: 2.0.7
     minimumUnityVersion: 6000.0.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.analytics@3.8.1
   testable: 0
   isDirectDependency: 1
   version: 3.8.1
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.analytics@6cc66d58ac08"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.analytics@6cc66d58ac08
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -630,9 +587,9 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.services.analytics
-    version: 6.1.0
+    version: 6.0.3
   - name: com.unity.services.core
-    version: 1.16.0
+    version: 1.14.0
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -652,9 +609,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -686,18 +640,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.8.1
     minimumUnityVersion: 2019.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.collab-proxy@2.10.2
   testable: 0
   isDirectDependency: 1
   version: 2.10.2
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.collab-proxy@3351acaba9c9"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.collab-proxy@3351acaba9c9
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -799,8 +747,16 @@ m_ResolvedPackages:
     - 2.10.1
     - 2.10.2
     compatible:
+    - 2.7.1
+    - 2.8.1
+    - 2.8.2
+    - 2.9.1
+    - 2.9.2
+    - 2.9.3
+    - 2.10.0
+    - 2.10.1
     - 2.10.2
-    recommended: 2.10.2
+    recommended: 2.7.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -828,9 +784,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -844,7 +797,7 @@ m_ResolvedPackages:
     revision: 53b710e518c9aaa47eeb059db533c0588530450f
     path: 
   unityLifecycle:
-    version: 2.10.2
+    version: 2.7.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -864,20 +817,14 @@ m_ResolvedPackages:
   fingerprint: 3351acaba9c9f7fc41d4b2404fc11c55d01ab0ad
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.10.2
+    minimumPackageVersion: 2.7.1
     minimumUnityVersion: 2021.3.0f1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.feature.development@1.0.2
   testable: 0
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.feature.development@767aadbc6eb7"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -916,7 +863,7 @@ m_ResolvedPackages:
   - name: com.unity.ide.visualstudio
     version: 2.0.25
   - name: com.unity.test-framework
-    version: 1.6.0
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -942,9 +889,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -976,18 +920,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.2
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ide.rider@3.0.38
   testable: 0
   isDirectDependency: 1
   version: 3.0.38
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1052,6 +990,9 @@ m_ResolvedPackages:
     - 3.0.37
     - 3.0.38
     compatible:
+    - 3.0.35
+    - 3.0.36
+    - 3.0.37
     - 3.0.38
     recommended: 3.0.38
     deprecated:
@@ -1071,9 +1012,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -1087,7 +1025,7 @@ m_ResolvedPackages:
     revision: 8a49d81ce92f334a07e3b71a8847b2f60dc12287
     path: 
   unityLifecycle:
-    version: 3.0.38
+    version: 3.0.35
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1104,20 +1042,14 @@ m_ResolvedPackages:
   fingerprint: 1f60b3138684c97af67aa8d911b1632ba916d29d
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.38
+    minimumPackageVersion: 3.0.35
     minimumUnityVersion: 2021.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ide.visualstudio@2.0.25
   testable: 0
   isDirectDependency: 1
   version: 2.0.25
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.ide.visualstudio@74aa435fc4bb"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1160,6 +1092,7 @@ m_ResolvedPackages:
     - 2.0.23
     - 2.0.25
     compatible:
+    - 2.0.23
     - 2.0.25
     recommended: 2.0.25
     deprecated: []
@@ -1168,7 +1101,7 @@ m_ResolvedPackages:
     version: 1.1.31
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.6.0
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -1184,9 +1117,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -1200,7 +1130,7 @@ m_ResolvedPackages:
     revision: 3765e21a94ea1100e4b377121dbf771c3cbd874a
     path: 
   unityLifecycle:
-    version: 2.0.25
+    version: 2.0.23
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1217,20 +1147,14 @@ m_ResolvedPackages:
   fingerprint: 74aa435fc4bb41890f400130ec80f271d1292fd4
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.25
+    minimumPackageVersion: 2.0.23
     minimumUnityVersion: 2021.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.multiplayer.center@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -1246,6 +1170,12 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.2.1
+    - 0.3.0
+    - 0.4.0
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
     - 1.0.0
     compatible:
     - 1.0.0
@@ -1278,9 +1208,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1312,18 +1239,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 6000.0.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.purchasing@4.14.0
   testable: 0
   isDirectDependency: 1
   version: 4.14.0
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.purchasing@679658531c5f"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.purchasing@679658531c5f
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -1437,7 +1358,12 @@ m_ResolvedPackages:
     - 5.0.1
     - 5.0.2
     - 5.0.3
+    - 5.0.4
     compatible:
+    - 4.12.2
+    - 4.13.0
+    - 4.13.1
+    - 4.13.2
     - 4.14.0
     - 5.0.0-pre.1
     - 5.0.0-pre.3
@@ -1450,7 +1376,8 @@ m_ResolvedPackages:
     - 5.0.1
     - 5.0.2
     - 5.0.3
-    recommended: 4.14.0
+    - 5.0.4
+    recommended: 5.0.4
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -1471,7 +1398,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.16.0
+    version: 1.14.0
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -1492,9 +1419,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 0
   entitlements:
     licensingModel: 1
@@ -1508,9 +1432,9 @@ m_ResolvedPackages:
     revision: 3e6d99ae77a28bf6f5b9d6b298d83ea91e599bda
     path: 
   unityLifecycle:
-    version: 4.14.0
+    version: 4.12.2
     nextVersion: 5.0.0-pre.1
-    recommendedVersion: 
+    recommendedVersion: 5.0.0
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
@@ -1529,20 +1453,14 @@ m_ResolvedPackages:
   fingerprint: 679658531c5f8bda75e3a1f83b8acbdf48fe8ae1
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 4.14.0
+    minimumPackageVersion: 4.12.2
     minimumUnityVersion: 2020.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.test-framework@1.6.0
+- packageId: com.unity.test-framework@1.5.1
   testable: 0
   isDirectDependency: 1
-  version: 1.6.0
+  version: 1.5.1
   source: 2
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.test-framework@24afccc4ed24"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.test-framework@388540dd9ce6
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1556,10 +1474,68 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.6.0
+    - 0.0.4-preview
+    - 0.0.29-preview
+    - 1.0.0
+    - 1.0.7
+    - 1.0.9
+    - 1.0.11
+    - 1.0.12
+    - 1.0.13
+    - 1.0.14
+    - 1.0.16
+    - 1.0.17
+    - 1.0.18
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.5
+    - 1.1.8
+    - 1.1.9
+    - 1.1.11
+    - 1.1.13
+    - 1.1.14
+    - 1.1.16
+    - 1.1.18
+    - 1.1.19
+    - 1.1.20
+    - 1.1.22
+    - 1.1.24
+    - 1.1.26
+    - 1.1.27
+    - 1.1.29
+    - 1.1.30
+    - 1.1.31
+    - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.5.1
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     compatible:
-    - 1.6.0
-    recommended: 1.6.0
+    - 1.5.1
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
+    recommended: 1.5.1
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -1586,9 +1562,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1602,7 +1575,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.6.0
+    version: 1.5.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1615,23 +1588,17 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 24afccc4ed2476477802ab9f82162fa9da7933dc
+  fingerprint: 388540dd9ce60b7f4463a23bfdf0d2dafa9a6f3e
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.6.0
-    minimumUnityVersion: 6000.0.44f1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
+    minimumPackageVersion: 1.5.1
+    minimumUnityVersion: 2022.3.0a1
 - packageId: com.unity.timeline@1.8.9
   testable: 0
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1736,6 +1703,8 @@ m_ResolvedPackages:
     - 1.8.8
     - 1.8.9
     compatible:
+    - 1.8.7
+    - 1.8.8
     - 1.8.9
     recommended: 1.8.9
     deprecated: []
@@ -1771,9 +1740,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -1787,7 +1753,7 @@ m_ResolvedPackages:
     revision: 5d309c1b02350ecb7093a4001d66afb1a238fc50
     path: 
   unityLifecycle:
-    version: 1.8.9
+    version: 1.8.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1815,20 +1781,14 @@ m_ResolvedPackages:
   fingerprint: 6b9e48457ddb4f64813d77fd77efc79a8f3102ae
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.9
+    minimumPackageVersion: 1.8.7
     minimumUnityVersion: 2021.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.ugui@de74c14cfcea"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.ugui@f3fac7af1578
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1846,10 +1806,19 @@ m_ResolvedPackages:
   versions:
     all:
     - 2.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
     - 2.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
     recommended: 2.0.0
-    deprecated: []
+    deprecated:
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -1878,9 +1847,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1907,23 +1873,17 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: de74c14cfcea94815cab6ec03feb286da6933c50
+  fingerprint: f3fac7af157843ea3b769ef7c6aa56de52618aeb
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
     minimumUnityVersion: 2019.2.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.visualscripting@1.9.7
   testable: 0
   isDirectDependency: 1
   version: 1.9.7
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1975,6 +1935,7 @@ m_ResolvedPackages:
     - 1.9.8
     - 1.9.9
     compatible:
+    - 1.9.6
     - 1.9.7
     - 1.9.8
     - 1.9.9
@@ -2004,9 +1965,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -2020,7 +1978,7 @@ m_ResolvedPackages:
     revision: 8292335505915a41ec7c5cc8e08ac436e24120a9
     path: 
   unityLifecycle:
-    version: 1.9.7
+    version: 1.9.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2044,20 +2002,14 @@ m_ResolvedPackages:
   fingerprint: 6279e2b7c4858e56cca7f367cd38c49ef66778c9
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.9.7
+    minimumPackageVersion: 1.9.6
     minimumUnityVersion: 2021.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.xr.legacyinputhelpers@2.1.12
   testable: 0
   isDirectDependency: 1
   version: 2.1.12
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@b7579e86f3b4"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -2141,9 +2093,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -2177,18 +2126,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.1.12
     minimumUnityVersion: 2019.4.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -2219,9 +2162,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2253,18 +2193,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2295,9 +2229,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2329,18 +2260,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2370,9 +2295,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2404,18 +2326,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2446,9 +2362,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2480,18 +2393,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2522,9 +2429,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2556,18 +2460,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2598,9 +2496,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2632,18 +2527,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2678,9 +2567,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2712,18 +2598,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2762,9 +2642,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2796,18 +2673,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2838,9 +2709,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2872,18 +2740,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2914,9 +2776,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2948,18 +2807,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2990,9 +2843,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3024,18 +2874,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -3066,9 +2910,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3100,18 +2941,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -3142,9 +2977,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3176,18 +3008,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -3218,9 +3044,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3252,18 +3075,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -3298,9 +3115,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3332,18 +3146,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -3374,9 +3182,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3408,18 +3213,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -3458,9 +3257,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3492,18 +3288,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3537,9 +3327,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3571,18 +3358,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3613,9 +3394,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3647,18 +3425,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3705,9 +3477,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3739,18 +3508,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3781,9 +3544,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3815,18 +3575,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3864,9 +3618,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3898,18 +3649,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3940,9 +3685,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3974,18 +3716,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -4024,9 +3760,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4058,18 +3791,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -4108,9 +3835,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4142,18 +3866,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -4192,9 +3910,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4226,18 +3941,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -4292,9 +4001,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4326,18 +4032,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -4372,9 +4072,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4406,18 +4103,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -4460,9 +4151,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4494,18 +4182,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -4550,9 +4232,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4584,18 +4263,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4626,9 +4299,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4660,18 +4330,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4714,9 +4378,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4748,18 +4409,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4794,9 +4449,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4828,18 +4480,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.hierarchycore@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UNITY\Unity Hub\Editor\6000.0.63f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4870,9 +4516,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4904,18 +4547,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4930,6 +4567,15 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.9-preview
+    - 1.0.0
+    - 1.0.5
+    - 1.0.6
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
     - 2.0.5
     compatible:
     - 2.0.5
@@ -4949,9 +4595,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4983,18 +4626,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
     minimumUnityVersion: 2019.4.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.services.core@1.16.0
+- packageId: com.unity.services.core@1.14.0
   testable: 0
   isDirectDependency: 0
-  version: 1.16.0
+  version: 1.14.0
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.services.core@8ba50f624741"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.services.core@9e81a5e38245
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -5047,6 +4684,9 @@ m_ResolvedPackages:
     - 1.15.2
     - 1.16.0
     compatible:
+    - 1.14.0
+    - 1.15.1
+    - 1.15.2
     - 1.16.0
     recommended: 1.16.0
     deprecated: []
@@ -5073,25 +4713,22 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638985740780220000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.16/manual/index.html
+  datePublishedTicks: 638684041320270000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.14/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 1b63a99d4899b6cf84a11901c8d66ec8369dc3b4
+    revision: 64962022211031c9e26ceec024d3587ea8e05a17
     path: 
   unityLifecycle:
-    version: 1.16.0
+    version: 1.14.0
     nextVersion: 
-    recommendedVersion: 
+    recommendedVersion: 1.16.0
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
@@ -5099,32 +4736,26 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n* Upgrading base unity version support
-    to 2022.3\n\n### Added\n- Adding environment button in the main toolbar for Unity
-    6.3. Right-click the main toolbar and select `Services/Environment` to activate.\n\n###
-    Fixed\n\n- Fixed an issue where errors would continuously be logged when unlinking
-    a project in the Services tab\n- Fixed an issue where the Popup for Project Linking
-    would close when chooisng the `Open Project Settings` option\n- Fixed compilation
-    issue in 2022.3.10f1 and lower"}'
+  upmReserved: '{"changelog":"### Added\n\n- Added `ServicesInitialization` monobehaviour
+    to manage services in the scene authoring.\n- Added `ServicesBehaviour` abstract
+    monobehaviour as a base for behaviours built on top of services.\n- Added unique
+    identifier for custom service registry creation (`UnityServices.CreateServices`).\n-
+    Added custom services registries dictionary in `UnityServices.Services`.\n- Added
+    `GetIdentifier()` method to `IUnityServices` interface with a default implementation.\n\n###
+    Changed\n\n- Updated the minimum supported Editor version to 2021.3."}'
   assetStore:
     productId: 
-  fingerprint: 8ba50f62474188022a50a78f721a5d30dfba0c3e
+  fingerprint: 9e81a5e382457b799480b311ce51187be99abbbf
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.16.0
-    minimumUnityVersion: 2022.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
+    minimumPackageVersion: 1.14.0
+    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.editorcoroutines@1.0.1
   testable: 0
   isDirectDependency: 0
   version: 1.0.1
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.editorcoroutines@54394ed3283c"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.editorcoroutines@54394ed3283c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -5167,9 +4798,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -5201,18 +4829,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 2018.1.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.performance.profile-analyzer@1.2.4
   testable: 0
   isDirectDependency: 0
   version: 1.2.4
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.performance.profile-analyzer@0516b3a47353"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.performance.profile-analyzer@0516b3a47353
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -5262,9 +4884,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -5297,18 +4916,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.2.3
     minimumUnityVersion: 2020.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.testtools.codecoverage@1.2.7
   testable: 0
   isDirectDependency: 0
   version: 1.2.7
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.testtools.codecoverage@e4e5058206c0"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.testtools.codecoverage@e4e5058206c0
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -5370,7 +4983,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.6.0
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -5392,9 +5005,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -5431,18 +5041,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.2.6
     minimumUnityVersion: 2019.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.services.analytics@6.1.0
+- packageId: com.unity.services.analytics@6.0.3
   testable: 0
   isDirectDependency: 0
-  version: 6.1.0
+  version: 6.0.3
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.services.analytics@10a9ca5d5622"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.services.analytics@3692623288ba
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -5490,10 +5094,13 @@ m_ResolvedPackages:
     - 6.0.3
     - 6.1.0
     - 6.1.1
+    - 6.2.0
     compatible:
+    - 6.0.3
     - 6.1.0
     - 6.1.1
-    recommended: 6.1.1
+    - 6.2.0
+    recommended: 6.2.0
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -5510,7 +5117,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.16.0
+    version: 1.14.0
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -5528,25 +5135,22 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638865241437490000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.analytics@6.1/manual/index.html
+  datePublishedTicks: 638786697535320000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.analytics@6.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 356d6526df4ad57bf4f39183e900f575cee0ed53
+    revision: d230200c331e8d1ebc6a050557bd1ae58d01e0fc
     path: 
   unityLifecycle:
-    version: 6.1.0
+    version: 6.0.3
     nextVersion: 
-    recommendedVersion: 
+    recommendedVersion: 6.2.0
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
@@ -5554,42 +5158,22 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n* Support for the Developer Data framework
-    in Unity 6.2 and above\n  * This supersedes the StartDataCollection and StopDataCollection
-    methods, which are deprecated in Unity 6.2 and above (they are not deprecated
-    in earlier editor versions that do not have the new EndUserConsent APIs)\n  *
-    In order to start and stop data collection, you must now use EndUserConsent.SetConsentState(...)
-    to grant or deny consent for AnalyticsIntent\n  * In order to request data deletion,
-    you must still use the SDK''s RequestDataDeletion method, but you must first
-    explicitly deny consent using the EndUserConsent API\n  * If consent has already
-    been granted, data collection will start automatically during UnityServices.InitializeAsync().
-    Otherwise, data collection will start when consent is granted\n  * When you start
-    using the EndUserConsent API, the SDK will throw exceptions if you attempt to
-    use methods from the original workflow. The two approaches cannot be mixed\n 
-    * Please see the migration guide for more information: https://docs.unity.com/ugs/en-us/manual/analytics/manual/sdk61-migration-guide\n\n###
-    Fixed\n\n* Updated the Debug Panel to use a new UIToolkit method in Unity 6.2
-    and above to prevent a deprecation warning\n* The two acquisitionSource event
-    buttons in the Standard Events sample now call the correct methods","gameService":{"configurePath":"Project/Services/Analytics
+  upmReserved: '{"changelog":"### Fixed\n\n* Control characters (e.g. newline) are
+    now serialised correctly and will not cause event batches to be discarded","gameService":{"configurePath":"Project/Services/Analytics
     - Gaming Services","genericDashboardUrl":"https://cloud.unity.com/analytics","projectDashboardUrl":"https://cloud.unity.com/home/organizations/{0}/projects/{1}/environments/default/analytics/v2/about","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"}}'
   assetStore:
     productId: 
-  fingerprint: 10a9ca5d56226d26b71614c3ee36a91aaa253b96
+  fingerprint: 3692623288ba229ed0f5eb57c112f2723e2f03cf
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 6.1.0
+    minimumPackageVersion: 6.0.3
     minimumUnityVersion: 2021.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.nuget.newtonsoft-json@3.2.1
   testable: 0
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@74deb55db2a0"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -5645,9 +5229,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -5680,18 +5261,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.2.1
     minimumUnityVersion: 2018.4.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.settings-manager@2.1.0
   testable: 0
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: "D:\\POLYTECH\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\PD\\Basman_Chronicles-\\Stasis-ChifuPointNClickBranch\\Library\\PackageCache\\com.unity.settings-manager@41738c275190"
+  resolvedPath: C:\UnityProjects\reconstructing-moscow\Stasis-ChifuPointNClickBranch\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -5732,9 +5307,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -5768,10 +5340,4 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.1.0
     minimumUnityVersion: 2022.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-m_BuiltInPackagesHash: 048091610f99b7c7ef739dd3bc25fb3815759a8d
+m_BuiltInPackagesHash: b637629ba608baeaf4fba970e736d93bb6d940b3
