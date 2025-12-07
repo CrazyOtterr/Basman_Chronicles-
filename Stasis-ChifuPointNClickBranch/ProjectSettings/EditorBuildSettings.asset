@@ -7,8 +7,15 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
-    guid: 774292961efde8f409433ca4975ad522
-  - enabled: 1
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MapScene.unity
+    guid: 9edd91ae0d33a0148a2b63bb170601b6
+  - enabled: 1
+    path: Assets/Scenes/QuestSceneMain.unity
+    guid: 245b71a21c1eceb4796c564efe46cb0c
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
