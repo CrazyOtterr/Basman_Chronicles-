@@ -15,6 +15,11 @@ public class PnC_InteractiveItem : MonoBehaviour
     [HideInInspector] public List<GameObject> buttons = new List<GameObject>();
 
     [SerializeField] private Puzzle _puzzlePrefab;
+
+    /*private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }*/
     public async void HandleClick()
     {
         for(int i = 0; i < 3; i++) buttons.Add(null);

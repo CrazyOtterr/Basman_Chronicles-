@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    public void LoadLevel(string levelName)
+    //public int index;
+    public void LoadLevel(int index)
     {
-        Debug.Log("Loading: " + levelName);
-        SceneManager.LoadScene(levelName);
+        SceneManager.LoadScene(index);
     }
 }

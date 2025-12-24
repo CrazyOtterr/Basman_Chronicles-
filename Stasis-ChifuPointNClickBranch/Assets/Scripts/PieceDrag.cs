@@ -7,6 +7,10 @@ public class PieceDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     public RectTransform target; // сюда привязываем правильную позицию
     public float snapDistance = 50f; // расстояние магнита
 
+    private MapPuzzle mapPuzzle;
+    private Puzzle currentPuzzleWindow;
+    private Stats playerStats;
+
     private RectTransform rect;
     private Canvas canvas;
 
@@ -14,6 +18,10 @@ public class PieceDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     {
         rect = GetComponent<RectTransform>();
         canvas = GetComponentInParent<Canvas>();
+
+        mapPuzzle = FindFirstObjectByType<MapPuzzle>();
+        currentPuzzleWindow = FindFirstObjectByType<Puzzle>();
+        playerStats = FindFirstObjectByType<Stats>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -37,6 +45,18 @@ public class PieceDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
             // Автоприцепление
             rect.anchoredPosition = target.anchoredPosition;
             enabled = false; // запретить дальнейшее перетягивание
+
+            mapPuzzle.pieceCounter++;
+
+            Debug.Log($"Карта: {mapPuzzle.IsAllPiecesCorrect()}");
+
+            // Проверка на всю собранную карту
+            if (mapPuzzle.IsAllPiecesCorrect())
+            {
+                currentPuzzleWindow.Disable();
+                playerStats.isMapSolved = true;
+            }
+                
         }
     }
 }
