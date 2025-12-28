@@ -5,15 +5,15 @@ using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour
 {
     public UnityEvent ToTheNextLevel;
-    public int sceneIndex;
+    //public int sceneIndex;
     public Camera mainCamera;
     public Transform targetPosition;
 
 
-    public void Enter()
+    /*public void Enter()
     {
         SceneManager.LoadScene(sceneIndex);
-    }
+    }*/
 
     void Update()
     {

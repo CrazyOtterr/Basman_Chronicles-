@@ -13,16 +13,17 @@ public class PnC_PlayerController : MonoBehaviour
     [SerializeField] private float roomPerspectiveYModifier;
     [SerializeField] private float roomPerspectiveScaleModifier;
     [SerializeField] private Vector2 scaleRange;
-    /*[Header("Animation")]
-    [SerializeField] private CharacterAnimator animator;
-    [SerializeField] private AnimationDataSO idleAnimation;
+    [Header("Animation")]
+    [SerializeField] private Animator animator;
+    /*[SerializeField] private AnimationDataSO idleAnimation;
     [SerializeField] private AnimationDataSO walkRightAnimation;
-    [SerializeField] private AnimationDataSO walkLeftAnimation;
+    [SerializeField] private AnimationDataSO walkLeftAnimation;*/
     
-    [Header("Imports")]
+    
+    /*[Header("Imports")]
     [SerializeField] private CursorStateSO cursor;
-    [SerializeField] private CursorStateSO overridableCursor;
-    */
+    [SerializeField] private CursorStateSO overridableCursor;*/
+    
     [SerializeField] private Transform appearanceTransform;
     [SerializeField] private Rigidbody2D physicalBody;
     [SerializeField] private Transform legsPosition;
@@ -43,6 +44,11 @@ public class PnC_PlayerController : MonoBehaviour
     /*public void SetSound(AudioQuery _walkQuery) {
         walkQuery = _walkQuery;
     }*/
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     public void MoveTo(Vector2 _targetPosition, UnityAction callback) {
         HandleSettingTarget(_targetPosition, callback);
@@ -83,7 +89,11 @@ public class PnC_PlayerController : MonoBehaviour
     private void HandleMovement() {
         if (currentMovementType == MovementType.None) {
             physicalBody.linearVelocity = Vector2.zero;
-            //animator.SetAnimation(idleAnimation, false);
+            if(animator.GetInteger("state") != 0)
+            {
+                animator.SetInteger("state", 0);
+                //Debug.Log("Закончили");
+            }
             return;
         }
         //Move to next point in path
@@ -93,7 +103,11 @@ public class PnC_PlayerController : MonoBehaviour
         //Modify direction to account for perspective
         direction.y /= roomPerspectiveYModifier;
         physicalBody.linearVelocity = movementSpeed * direction.normalized * new Vector2(1, roomPerspectiveYModifier);
-        //animator.SetAnimation(direction.normalized.x > 0 ? walkRightAnimation : walkLeftAnimation, false);
+        if (animator.GetInteger("state") != (direction.normalized.x > 0 ? 1 : 2))
+        {
+            animator.SetInteger("state", direction.normalized.x > 0 ? 1 : 2);
+            //Debug.Log("Идёмс. . . ");
+        }
         //PlayWalkingSounds();
         if (Vector2.Distance(targetPosition, transform.position) < minTargetDistance) {
             //If point is last

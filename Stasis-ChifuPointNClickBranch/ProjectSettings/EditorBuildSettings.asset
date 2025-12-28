@@ -6,28 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/Level0/OurCabinet.unity
     guid: 3f5ff5fee077b0c40b8f9ce7d9ac1863
-  - enabled: 1
-    path: Assets/Scenes/Level0/Corridor.unity
-    guid: 12319c7b1724adc4b8a84be74ab72436
   - enabled: 1
     path: Assets/Scenes/Level0/ColleagueCabinet.unity
     guid: eaaff368fb5f9964aa6b0bd8ed68bdbe
   - enabled: 1
     path: Assets/Scenes/Level0/TimeMachine.unity
     guid: 8a6adb9800cafa24fbe1d6193698b64e
-  - enabled: 0
-    path: Assets/Scenes/Game.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/Level0/Corridor.unity
+    guid: 12319c7b1724adc4b8a84be74ab72436
+  - enabled: 0
+    path: Assets/Scenes/Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
     path: Assets/Scenes/MapScene.unity
     guid: 9edd91ae0d33a0148a2b63bb170601b6
-  - enabled: 1
-    path: Assets/Scenes/old/QuestSceneMainCardsPuzzle(cracked)).unity
-    guid: 5e4784c668c203840b5f7119e3bb1c45
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
