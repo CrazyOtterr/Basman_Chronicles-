@@ -14,7 +14,7 @@ public class PnC_PlayerController : MonoBehaviour
     [SerializeField] private float roomPerspectiveScaleModifier;
     [SerializeField] private Vector2 scaleRange;
     [Header("Animation")]
-    [SerializeField] private Animator animator;
+    private Animator animator;
     /*[SerializeField] private AnimationDataSO idleAnimation;
     [SerializeField] private AnimationDataSO walkRightAnimation;
     [SerializeField] private AnimationDataSO walkLeftAnimation;*/
@@ -25,6 +25,7 @@ public class PnC_PlayerController : MonoBehaviour
     [SerializeField] private CursorStateSO overridableCursor;*/
     
     [SerializeField] private Transform appearanceTransform;
+    [SerializeField] private SpriteRenderer playerSprite;
     [SerializeField] private Rigidbody2D physicalBody;
     [SerializeField] private Transform legsPosition;
 
@@ -89,11 +90,12 @@ public class PnC_PlayerController : MonoBehaviour
     private void HandleMovement() {
         if (currentMovementType == MovementType.None) {
             physicalBody.linearVelocity = Vector2.zero;
-            if(animator.GetInteger("state") != 0)
+            /*if(animator.GetInteger("state") != 0)
             {
                 animator.SetInteger("state", 0);
                 //Debug.Log("Закончили");
-            }
+            }*/
+            animator.SetBool("IsWalk", false);
             return;
         }
         //Move to next point in path
@@ -103,11 +105,16 @@ public class PnC_PlayerController : MonoBehaviour
         //Modify direction to account for perspective
         direction.y /= roomPerspectiveYModifier;
         physicalBody.linearVelocity = movementSpeed * direction.normalized * new Vector2(1, roomPerspectiveYModifier);
-        if (animator.GetInteger("state") != (direction.normalized.x > 0 ? 1 : 2))
+        /*if (animator.GetInteger("state") != (direction.normalized.x > 0 ? 1 : 2))
         {
             animator.SetInteger("state", direction.normalized.x > 0 ? 1 : 2);
             //Debug.Log("Идёмс. . . ");
+        }*/
+        if (playerSprite.flipX != (direction.normalized.x > 0 ? false : true))
+        {
+            playerSprite.flipX = (direction.normalized.x > 0 ? false : true);
         }
+        animator.SetBool("IsWalk", true);
         //PlayWalkingSounds();
         if (Vector2.Distance(targetPosition, transform.position) < minTargetDistance) {
             //If point is last

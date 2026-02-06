@@ -243,8 +243,8 @@ MonoBehaviour:
   roomPerspectiveYModifier: 0.5
   roomPerspectiveScaleModifier: 0.15
   scaleRange: {x: 0.5, y: 2}
-  animator: {fileID: 0}
   appearanceTransform: {fileID: 1102836768187056279}
+  playerSprite: {fileID: 7412574202609557181}
   physicalBody: {fileID: 4612285421642922805}
   legsPosition: {fileID: 5906949483569294966}
 --- !u!70 &6291003531057361326
