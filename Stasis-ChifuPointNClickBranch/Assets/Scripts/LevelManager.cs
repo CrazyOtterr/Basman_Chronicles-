@@ -5,7 +5,7 @@ public class LevelManager : MonoBehaviour
 {
     public void LoadLevel(string levelName)
     {
-        Debug.Log("Загружаем: " + levelName);
+        Debug.Log("Downloading: " + levelName);
         SceneManager.LoadScene(levelName);
     }
 }
