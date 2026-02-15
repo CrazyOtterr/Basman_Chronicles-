@@ -1,0 +1,20 @@
+{
+    "level0Scenes": [
+        {
+            "sceneName": "OurCabinet",
+            "isCompleted": false
+        },
+        {
+            "sceneName": "Corridor",
+            "isCompleted": false
+        },
+        {
+            "sceneName": "ColleagueCabinet",
+            "isCompleted": false
+        },
+        {
+            "sceneName": "TimeMachine",
+            "isCompleted": false
+        }
+    ]
+}
