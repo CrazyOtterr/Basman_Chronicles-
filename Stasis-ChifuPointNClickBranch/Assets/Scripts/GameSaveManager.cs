@@ -4,7 +4,7 @@ using System.IO;
 using UnityEngine;
 
 [System.Serializable]
-public class SceneProgress
+public class SceneProgress // Прогресс для каждой сцены
 {
     public string sceneName;
     public bool isCompleted;
@@ -13,7 +13,7 @@ public class SceneProgress
 [System.Serializable]
 public class GameSaveData
 {
-    public List<SceneProgress> level0Scenes = new List<SceneProgress>();
+    public List<SceneProgress> level0Scenes = new List<SceneProgress>(); // Список прогрессов сцен для первой локации
 }
 
 public class GameSaveManager : MonoBehaviour
@@ -92,7 +92,7 @@ public class GameSaveManager : MonoBehaviour
         File.WriteAllText(saveFilePath, json);
         Debug.Log("Game saved to: " + saveFilePath);
     }
-
+    // === ! Метод для маркировки пройденных сцен ! ===
     public void MarkSceneCompleted(string sceneName)
     {
         SceneProgress scene = saveData.level0Scenes.Find(s => s.sceneName == sceneName);

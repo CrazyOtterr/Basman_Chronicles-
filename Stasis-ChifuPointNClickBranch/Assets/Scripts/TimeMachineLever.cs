@@ -39,6 +39,8 @@ public class TimeMachineLever : MonoBehaviour
 
         Debug.Log("[TimeMachineLever] Loading scene: OurCabinet");
 
+        Debug.Log(GameSaveManager.Instance.GetSaveFilePath());
+
         // Переход на следующую сцену
         SceneManager.LoadScene("OurCabinet");
     }
