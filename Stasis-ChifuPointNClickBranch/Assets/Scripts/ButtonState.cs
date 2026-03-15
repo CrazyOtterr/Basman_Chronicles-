@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -6,7 +5,6 @@ using UnityEngine.UI;
 using static System.Net.Mime.MediaTypeNames;
 
 using Image = UnityEngine.UI.Image;
-using Debug = UnityEngine.Debug;
 
 public class ButtonState : MonoBehaviour, IPointerClickHandler
 {
@@ -104,15 +102,12 @@ public class ButtonState : MonoBehaviour, IPointerClickHandler
     {
         if (!string.IsNullOrEmpty(levelSceneName))
         {
-            Debug.Log($"Загрузка уровня: {levelDisplayName}");
             SceneManager.LoadScene(levelSceneName);
         }
     }
 
     public void ShowLevelInfo()
     {
-        Debug.Log($"Показ информации об уровне: {levelDisplayName}");
-
         if (LevelMapManager.Instance != null)
         {
             LevelMapManager.Instance.ShowLevelInfo(this);
