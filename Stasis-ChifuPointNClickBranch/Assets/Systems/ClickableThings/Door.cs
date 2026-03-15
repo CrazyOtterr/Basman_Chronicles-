@@ -5,15 +5,13 @@ using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour
 {
     public UnityEvent ToTheNextLevel;
-    //public int sceneIndex;
     public Camera mainCamera;
     public Transform targetPosition;
 
-
-    /*public void Enter()
+    private void Start()
     {
-        SceneManager.LoadScene(sceneIndex);
-    }*/
+        Debug.Log($"targetPosition: {targetPosition.position}");
+    }
 
     void Update()
     {
@@ -23,10 +21,15 @@ public class Door : MonoBehaviour
             Vector2 mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
 
+            Debug.Log("Левая кнопка нажата!");
+
             if (hit.collider != null)
             {
+                Debug.Log("Во что-то попали...");
                 if (hit.collider.gameObject == gameObject)
                 {
+                    Debug.Log("Идём к двери!");
+                    
                     PnC_Player.inst.controller.MoveTo(targetPosition.position, () => { ToTheNextLevel.Invoke(); });
                 }
             }
