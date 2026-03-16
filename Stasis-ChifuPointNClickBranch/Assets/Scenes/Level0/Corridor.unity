@@ -722,6 +722,7 @@ MonoBehaviour:
         m_CallState: 2
   mainCamera: {fileID: 1719053334}
   targetPosition: {fileID: 1751739535}
+  CurrentDoorPose: 1
 --- !u!212 &885351799
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1707,6 +1708,7 @@ MonoBehaviour:
         m_CallState: 2
   mainCamera: {fileID: 1719053334}
   targetPosition: {fileID: 1103846571}
+  CurrentDoorPose: 0
 --- !u!212 &1860840252
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1872,6 +1874,7 @@ MonoBehaviour:
         m_CallState: 2
   mainCamera: {fileID: 1719053334}
   targetPosition: {fileID: 975070985}
+  CurrentDoorPose: 2
 --- !u!212 &1885664963
 SpriteRenderer:
   m_ObjectHideFlags: 0

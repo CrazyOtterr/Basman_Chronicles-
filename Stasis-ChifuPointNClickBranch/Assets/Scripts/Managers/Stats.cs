@@ -33,6 +33,5 @@ public class Stats : MonoBehaviour
     private void Update()
     {
         gameTime += Time.deltaTime;
-        //Debug.Log(gameTime);
     }
 }
