@@ -1,3 +1,4 @@
+<code>
 NewMapScene (корневая сцена)
 │
 ├── LevelStateManager (корневой объект)
@@ -33,6 +34,7 @@ Mossovet(inside) (сцена)
 ├── EventSystem
 ├── LevelManager (пустой) ← LevelManager.cs
 └── GameObject (пустой)
+</code>
 
 ===Логика работы===
 1. Запуск игры → LevelStateManager.ResetAllProgress() сбрасывает прогресс
