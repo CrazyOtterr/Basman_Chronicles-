@@ -9,7 +9,7 @@ using Image = UnityEngine.UI.Image;
 public class ButtonState : MonoBehaviour, IPointerClickHandler
 {
     [Header("Настройки уровня")]
-    public string levelSceneName = "QuestSceneMain";
+    public string levelSceneName = "OurCabinet";
     public string levelDisplayName = "Уровень 1";
     [TextArea(2, 3)]
     public string levelDescription = "Описание уровня";

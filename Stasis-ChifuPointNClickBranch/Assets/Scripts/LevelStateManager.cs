@@ -16,7 +16,7 @@ public class LevelStateManager : MonoBehaviour
     [Header("Настройки уровней")]
     public string[] allLevelSceneNames = new string[]
     {
-        "QuestSceneMain",
+        "OurCabinet",
         "Mossovet(inside)"
     };
 
@@ -45,7 +45,7 @@ public class LevelStateManager : MonoBehaviour
             }
             else
             {
-                levelStates[sceneName] = sceneName == "QuestSceneMain" ? LevelState.Active : LevelState.Locked;
+                levelStates[sceneName] = sceneName == "OurCabinet" ? LevelState.Active : LevelState.Locked;
             }
         }
 
@@ -71,7 +71,7 @@ public class LevelStateManager : MonoBehaviour
 
     public void MarkLevelAsVisited(string sceneName)
     {
-        if (sceneName == "NewMapScene" || sceneName == "MapScene") return;
+        if (sceneName == "NewMapScene") return;
 
         if (levelStates.ContainsKey(sceneName) && levelStates[sceneName] != LevelState.Completed)
         {
@@ -95,22 +95,28 @@ public class LevelStateManager : MonoBehaviour
 
     public void ResetAllProgress()
     {
+	Debug.Log("=== RESET ALL PROGRESS CALLED ===");
+
         foreach (string sceneName in allLevelSceneNames)
         {
             PlayerPrefs.DeleteKey(sceneName);
+	    Debug.Log($"Deleted key: {sceneName}");
         }
         PlayerPrefs.Save();
 
         // Устанавливаем начальные состояния
         foreach (string sceneName in allLevelSceneNames)
         {
-            levelStates[sceneName] = sceneName == "QuestSceneMain" ? LevelState.Active : LevelState.Locked;
+            levelStates[sceneName] = sceneName == "OurCabinet" ? LevelState.Active : LevelState.Locked;
+            Debug.Log($"Set {sceneName} to {levelStates[sceneName]}");
+
         }
 
         // Оповещаем все кнопки об обновлении
         foreach (string sceneName in allLevelSceneNames)
         {
             OnLevelStateChanged?.Invoke(sceneName);
+            Debug.Log($"Invoked OnLevelStateChanged for {sceneName}");
         }
     }
 }
