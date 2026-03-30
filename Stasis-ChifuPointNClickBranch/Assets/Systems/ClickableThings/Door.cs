@@ -7,6 +7,7 @@ public class Door : MonoBehaviour
     public UnityEvent ToTheNextLevel;
     public Camera mainCamera;
     public Transform targetPosition;
+    public Stats.DoorPoses CurrentDoorPose;
 
     private void Start()
     {
@@ -30,7 +31,11 @@ public class Door : MonoBehaviour
                 {
                     Debug.Log("ָה¸ל ך הגונט!");
                     
-                    PnC_Player.inst.controller.MoveTo(targetPosition.position, () => { ToTheNextLevel.Invoke(); });
+                    PnC_Player.inst.controller.MoveTo(targetPosition.position, () => 
+                    { 
+                        ToTheNextLevel.Invoke();
+                        Stats.Instance.door = CurrentDoorPose;
+                    });
                 }
             }
         }
