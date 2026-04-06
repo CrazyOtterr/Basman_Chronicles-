@@ -27,6 +27,9 @@ public class PipeGridPuzzle : MonoBehaviour
     [Tooltip("Вызывается один раз, когда найден путь от Start до End по направлениям труб.")]
     public UnityEvent onPuzzleSolved;
 
+    [Tooltip("Вызывается при сбросе победы и пути (новая попытка, повторное открытие окна).")]
+    public UnityEvent onPuzzleReset;
+
     public Vector2Int StartCell => startCell;
     public Vector2Int EndCell => endCell;
     public bool IsSolved => _solved;
@@ -223,6 +226,7 @@ public class PipeGridPuzzle : MonoBehaviour
     {
         _solved = false;
         _lastSolvedPath = null;
+        onPuzzleReset?.Invoke();
     }
 
     /// <summary>Сброс победы и поворотов всех клеток к раскладке из сцены (начало попытки).</summary>

@@ -6435,6 +6435,9 @@ MonoBehaviour:
   onPuzzleSolved:
     m_PersistentCalls:
       m_Calls: []
+  onPuzzleReset:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &6434746515504170508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6460,6 +6463,11 @@ MonoBehaviour:
   markerColor: {r: 1, g: 0.92, b: 0.2, a: 1}
   pathSegmentEase: 1
   markerHeadingOffsetDegrees: 0
+  requireButtonToPlayWinFeedback: 1
+  continueAfterWinButton: {fileID: 0}
+  continueButtonLabel: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+  continueButtonGapBelowGrid: 14
+  continueButtonSize: {x: 220, y: 46}
 --- !u!1 &7435930126696161994
 GameObject:
   m_ObjectHideFlags: 0

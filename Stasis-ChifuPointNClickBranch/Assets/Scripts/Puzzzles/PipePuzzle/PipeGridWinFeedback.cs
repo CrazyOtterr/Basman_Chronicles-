@@ -8,6 +8,7 @@ using UnityEditor;
 
 /// <summary>
 /// Победа: опционально punch по полю, анимация маркера A по <see cref="PipeGridPuzzle.LastSolvedPath"/>.
+/// По умолчанию анимация и punch запускаются после нажатия кнопки под полем (см. requireButtonToPlayWinFeedback).
 /// Всё в одном компоненте — меньше «Missing script» из‑за лишних GUID в сцене.
 /// </summary>
 [RequireComponent(typeof(PipeGridPuzzle))]
@@ -47,9 +48,24 @@ public class PipeGridWinFeedback : MonoBehaviour
     [Tooltip("Спрайт pipe_A смотрит влево (−X). Доп. поворот по Z (градусы), если нужно подогнать арт.")]
     [SerializeField] private float markerHeadingOffsetDegrees;
 
+    [Header("Кнопка после победы")]
+    [Tooltip("Если включено — анимация пути и punch только после нажатия кнопки под полем.")]
+    [SerializeField] private bool requireButtonToPlayWinFeedback = true;
+
+    [Tooltip("Необязательно: своя кнопка в иерархии. Если пусто — при первой победе создаётся под полем.")]
+    [SerializeField] private Button continueAfterWinButton;
+
+    [SerializeField] private string continueButtonLabel = "Продолжить";
+
+    [Tooltip("Зазор между нижним краем клеток и верхним краем кнопки (автокнопка ставится по границам клеток, не по RectTransform поля).")]
+    [SerializeField] private float continueButtonGapBelowGrid = 14f;
+
+    [SerializeField] private Vector2 continueButtonSize = new Vector2(220f, 46f);
+
     private PipeGridPuzzle _puzzle;
     private Vector3 _baseScale;
     private Tween _pathTween;
+    private Button _autoCreatedContinueButton;
 
     private void Awake()
     {
@@ -81,18 +97,60 @@ public class PipeGridWinFeedback : MonoBehaviour
         if (punchTarget != null)
             _baseScale = punchTarget.localScale;
         if (_puzzle != null)
+        {
             _puzzle.onPuzzleSolved.AddListener(OnSolved);
+            _puzzle.onPuzzleReset.AddListener(OnPuzzleResetHandler);
+        }
+
+        WireContinueButton();
         HidePathMarker();
+        HideContinueButton();
     }
 
     private void OnDisable()
     {
         KillPathTween();
         if (_puzzle != null)
+        {
             _puzzle.onPuzzleSolved.RemoveListener(OnSolved);
+            _puzzle.onPuzzleReset.RemoveListener(OnPuzzleResetHandler);
+        }
+
+        var b = GetContinueButton();
+        if (b != null)
+            b.onClick.RemoveListener(OnContinueAfterWinClicked);
+    }
+
+    private void OnPuzzleResetHandler()
+    {
+        HidePathMarker();
+        HideContinueButton();
     }
 
     private void OnSolved()
+    {
+        if (requireButtonToPlayWinFeedback)
+        {
+            EnsureContinueButton();
+            ShowContinueButton();
+            return;
+        }
+
+        PlayWinFeedback();
+    }
+
+    private void OnContinueAfterWinClicked()
+    {
+        var b = GetContinueButton();
+        if (b != null)
+            b.interactable = false;
+        HideContinueButton();
+        PlayWinFeedback();
+        if (b != null)
+            b.interactable = true;
+    }
+
+    private void PlayWinFeedback()
     {
         if (playPathAnimation)
             PlayPathAnimation();
@@ -103,6 +161,147 @@ public class PipeGridWinFeedback : MonoBehaviour
         t.DOKill(false);
         t.localScale = _baseScale;
         t.DOPunchScale(Vector3.one * punch, duration, 6, 0.4f);
+    }
+
+    private Button GetContinueButton()
+    {
+        return continueAfterWinButton != null ? continueAfterWinButton : _autoCreatedContinueButton;
+    }
+
+    private void WireContinueButton()
+    {
+        if (!requireButtonToPlayWinFeedback)
+            return;
+        EnsureContinueButton();
+        var b = GetContinueButton();
+        if (b == null)
+            return;
+        b.onClick.RemoveListener(OnContinueAfterWinClicked);
+        b.onClick.AddListener(OnContinueAfterWinClicked);
+    }
+
+    private void EnsureContinueButton()
+    {
+        if (!requireButtonToPlayWinFeedback)
+            return;
+        if (continueAfterWinButton != null)
+            return;
+        if (_autoCreatedContinueButton != null)
+            return;
+
+        var parent = punchTarget != null ? punchTarget : transform as RectTransform;
+        if (parent == null)
+            return;
+
+        var go = new GameObject("PipePuzzleContinueButton", typeof(RectTransform));
+        go.transform.SetParent(parent, false);
+        var rt = go.GetComponent<RectTransform>();
+        rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0.5f);
+        rt.pivot = new Vector2(0.5f, 0.5f);
+        rt.localScale = Vector3.one;
+        rt.sizeDelta = continueButtonSize;
+        rt.anchoredPosition = Vector2.zero;
+
+        var image = go.AddComponent<Image>();
+        image.color = new Color(0.22f, 0.42f, 0.65f, 1f);
+        image.raycastTarget = true;
+
+        var btn = go.AddComponent<Button>();
+        var colors = btn.colors;
+        colors.highlightedColor = new Color(0.32f, 0.55f, 0.82f, 1f);
+        colors.pressedColor = new Color(0.18f, 0.35f, 0.52f, 1f);
+        btn.colors = colors;
+
+        var textGo = new GameObject("Text", typeof(RectTransform));
+        textGo.transform.SetParent(go.transform, false);
+        var textRt = textGo.GetComponent<RectTransform>();
+        textRt.anchorMin = Vector2.zero;
+        textRt.anchorMax = Vector2.one;
+        textRt.offsetMin = Vector2.zero;
+        textRt.offsetMax = Vector2.zero;
+
+        var label = textGo.AddComponent<Text>();
+        label.text = continueButtonLabel;
+        label.alignment = TextAnchor.MiddleCenter;
+        label.color = Color.white;
+        label.fontSize = 20;
+        label.raycastTarget = false;
+        var font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        if (font != null)
+            label.font = font;
+
+        rt.SetAsLastSibling();
+        _autoCreatedContinueButton = btn;
+        go.SetActive(false);
+    }
+
+    private void ShowContinueButton()
+    {
+        var b = GetContinueButton();
+        if (b != null)
+        {
+            b.interactable = true;
+            if (_autoCreatedContinueButton != null)
+                LayoutAutoContinueButtonBelowCells();
+            b.gameObject.SetActive(true);
+        }
+    }
+
+    /// <summary>
+    /// RectTransform поля (punchTarget) часто меньше реальной сетки; ставим кнопку под нижним краем всех клеток.
+    /// </summary>
+    private void LayoutAutoContinueButtonBelowCells()
+    {
+        if (_autoCreatedContinueButton == null || punchTarget == null || _puzzle == null)
+            return;
+
+        var btnRt = _autoCreatedContinueButton.transform as RectTransform;
+        if (btnRt == null)
+            return;
+
+        var glg = _puzzle.GetComponentInChildren<GridLayoutGroup>(true);
+        if (glg != null)
+            LayoutRebuilder.ForceRebuildLayoutImmediate(glg.GetComponent<RectTransform>());
+        Canvas.ForceUpdateCanvases();
+
+        var field = punchTarget;
+        var corners = new Vector3[4];
+        var bottomY = float.PositiveInfinity;
+        var found = false;
+        foreach (var cell in _puzzle.GetComponentsInChildren<PipeGridCell>(true))
+        {
+            var crt = cell.transform as RectTransform;
+            if (crt == null)
+                continue;
+            crt.GetWorldCorners(corners);
+            for (var i = 0; i < 4; i++)
+            {
+                var ly = field.InverseTransformPoint(corners[i]).y;
+                if (ly < bottomY)
+                    bottomY = ly;
+                found = true;
+            }
+        }
+
+        if (!found)
+            bottomY = field.rect.yMin;
+
+        btnRt.SetParent(field, false);
+        btnRt.anchorMin = btnRt.anchorMax = new Vector2(0.5f, 0.5f);
+        btnRt.pivot = new Vector2(0.5f, 0.5f);
+        btnRt.localScale = Vector3.one;
+        btnRt.localRotation = Quaternion.identity;
+        btnRt.sizeDelta = continueButtonSize;
+        var halfH = continueButtonSize.y * 0.5f;
+        btnRt.anchoredPosition = new Vector2(0f, bottomY - continueButtonGapBelowGrid - halfH);
+        btnRt.SetAsLastSibling();
+    }
+
+    private void HideContinueButton()
+    {
+        var b = GetContinueButton();
+        if (b != null)
+            b.gameObject.SetActive(false);
     }
 
     private void PlayPathAnimation()
