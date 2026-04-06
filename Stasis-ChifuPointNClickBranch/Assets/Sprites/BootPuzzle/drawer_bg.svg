@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <!-- Top panel of nightstand -->
+  <rect x="20" y="0" width="460" height="30" rx="2" fill="#b5885a" stroke="#6b4226" stroke-width="2"/>
+  <!-- Wood grain on top -->
+  <path d="M60 8 Q150 12 250 7 Q350 14 440 10" fill="none" stroke="#9a7040" stroke-width="1" opacity="0.5"/>
+  <path d="M80 18 Q180 22 280 17 Q380 24 430 20" fill="none" stroke="#9a7040" stroke-width="1" opacity="0.4"/>
+
+  <!-- Left side panel -->
+  <path d="M20 30 L50 50 L50 370 L20 390 Z" fill="#c49a6c" stroke="#6b4226" stroke-width="2"/>
+  <!-- Wood grain left -->
+  <path d="M35 80 Q38 150 36 250 Q34 320 37 360" fill="none" stroke="#a8804a" stroke-width="1" opacity="0.4"/>
+
+  <!-- Right side panel -->
+  <path d="M480 30 L450 50 L450 370 L480 390 Z" fill="#c49a6c" stroke="#6b4226" stroke-width="2"/>
+  <!-- Wood grain right -->
+  <path d="M465 80 Q462 150 464 250 Q466 320 463 360" fill="none" stroke="#a8804a" stroke-width="1" opacity="0.4"/>
+
+  <!-- Drawer interior - back wall -->
+  <rect x="50" y="50" width="400" height="280" fill="#dcc8a0" stroke="#6b4226" stroke-width="1.5"/>
+  <!-- Shadow on back wall -->
+  <rect x="50" y="50" width="400" height="40" fill="url(#topShadow)" opacity="0.3"/>
+
+  <!-- Bottom of drawer -->
+  <path d="M50 330 L80 360 L420 360 L450 330 Z" fill="#c9b58a" stroke="#6b4226" stroke-width="1.5"/>
+
+  <!-- Front panel of drawer -->
+  <rect x="60" y="360" width="380" height="35" rx="2" fill="#b5885a" stroke="#6b4226" stroke-width="2"/>
+  <!-- Knob -->
+  <circle cx="250" cy="377" r="8" fill="#3a3a3a" stroke="#222" stroke-width="1.5"/>
+  <circle cx="250" cy="377" r="4" fill="#555" opacity="0.6"/>
+
+  <!-- Screws -->
+  <g fill="#8a8a6a" stroke="#666" stroke-width="0.5">
+    <circle cx="65" cy="65" r="3.5"/>
+    <line x1="63" y1="65" x2="67" y2="65" stroke="#555" stroke-width="1"/>
+    <circle cx="435" cy="65" r="3.5"/>
+    <line x1="433" y1="65" x2="437" y2="65" stroke="#555" stroke-width="1"/>
+    <circle cx="65" cy="315" r="3.5"/>
+    <line x1="63" y1="315" x2="67" y2="315" stroke="#555" stroke-width="1"/>
+    <circle cx="435" cy="315" r="3.5"/>
+    <line x1="433" y1="315" x2="437" y2="315" stroke="#555" stroke-width="1"/>
+  </g>
+
+  <defs>
+    <linearGradient id="topShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

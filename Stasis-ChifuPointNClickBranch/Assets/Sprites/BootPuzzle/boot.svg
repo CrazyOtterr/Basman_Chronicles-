@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 500" width="450" height="500">
+  <!-- Sole -->
+  <path d="M40 430 Q30 440 35 455 Q40 470 80 475 L320 480 Q360 478 370 465 Q375 450 360 435 L330 420"
+        fill="#e8ddd0" stroke="#3a2a1a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Sole stitching -->
+  <path d="M60 460 Q120 468 200 470 Q280 468 340 460"
+        fill="none" stroke="#8a7a6a" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- Boot body -->
+  <path d="M80 420 Q60 380 70 300 Q75 250 90 200 L100 160 Q105 130 120 110
+           L140 90 Q155 80 170 75 L200 70
+           Q220 68 240 72 L270 80
+           Q290 88 305 105 Q320 130 325 160
+           L335 200 Q345 250 350 300 Q360 380 340 420 Z"
+        fill="#a0785a" stroke="#3a2a1a" stroke-width="3"/>
+
+  <!-- Boot top opening -->
+  <ellipse cx="210" cy="75" rx="65" ry="18" fill="#8a6040" stroke="#3a2a1a" stroke-width="2.5"/>
+  <!-- Inner darkness -->
+  <ellipse cx="210" cy="78" rx="50" ry="12" fill="#4a3020"/>
+
+  <!-- Vertical creases/lines on upper boot -->
+  <path d="M150 85 Q148 100 152 130" fill="none" stroke="#7a5838" stroke-width="1.5" opacity="0.6"/>
+  <path d="M175 78 Q172 100 176 130" fill="none" stroke="#7a5838" stroke-width="1.5" opacity="0.6"/>
+  <path d="M200 75 Q198 100 202 130" fill="none" stroke="#7a5838" stroke-width="1.5" opacity="0.6"/>
+  <path d="M225 75 Q228 100 224 130" fill="none" stroke="#7a5838" stroke-width="1.5" opacity="0.6"/>
+  <path d="M250 78 Q253 100 249 130" fill="none" stroke="#7a5838" stroke-width="1.5" opacity="0.6"/>
+  <path d="M270 85 Q273 100 269 130" fill="none" stroke="#7a5838" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Tongue -->
+  <path d="M175 110 Q180 90 185 75 Q195 60 210 55 Q225 60 235 75 Q240 90 245 110"
+        fill="#b08860" stroke="#3a2a1a" stroke-width="2"/>
+
+  <!-- Lace holes left -->
+  <g fill="#3a2a1a">
+    <circle cx="178" cy="115" r="3"/>
+    <circle cx="175" cy="140" r="3"/>
+    <circle cx="173" cy="165" r="3"/>
+  </g>
+  <!-- Lace holes right -->
+  <g fill="#3a2a1a">
+    <circle cx="242" cy="115" r="3"/>
+    <circle cx="245" cy="140" r="3"/>
+    <circle cx="247" cy="165" r="3"/>
+  </g>
+
+  <!-- Laces -->
+  <g fill="none" stroke="#2a1a0a" stroke-width="2" stroke-linecap="round">
+    <line x1="178" y1="115" x2="242" y2="115"/>
+    <line x1="175" y1="140" x2="245" y2="140"/>
+    <line x1="173" y1="165" x2="247" y2="165"/>
+    <!-- Hanging lace -->
+    <path d="M173 165 Q140 200 120 260 Q110 300 130 340" stroke-width="2.5"/>
+    <path d="M247 165 Q280 200 300 260 Q320 330 340 380 Q355 410 370 440" stroke-width="2.5"/>
+  </g>
+
+  <!-- Toe cap area -->
+  <path d="M90 350 Q100 320 140 310 Q200 300 280 310 Q320 320 330 350"
+        fill="none" stroke="#3a2a1a" stroke-width="2" opacity="0.5"/>
+
+  <!-- Stitching around boot body -->
+  <path d="M95 390 Q90 350 95 300 Q100 250 110 200"
+        fill="none" stroke="#6a5030" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M325 390 Q330 350 325 300 Q320 250 310 200"
+        fill="none" stroke="#6a5030" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Patch/tear marks to show boot is worn -->
+  <path d="M120 280 Q130 275 145 282" fill="none" stroke="#6a4a2a" stroke-width="1.5"/>
+  <path d="M280 250 Q295 245 305 255" fill="none" stroke="#6a4a2a" stroke-width="1.5"/>
+  <path d="M150 380 Q165 370 180 378" fill="none" stroke="#6a4a2a" stroke-width="1.5"/>
+
+  <!-- Tear/hole on the side -->
+  <path d="M260 340 Q275 330 290 340 Q280 355 260 350 Z" fill="#4a3020" stroke="#3a2a1a" stroke-width="1.5"/>
+</svg>
