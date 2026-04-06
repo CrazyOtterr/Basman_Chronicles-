@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
@@ -9,34 +8,31 @@ public class Door : MonoBehaviour
     public Transform targetPosition;
     public Stats.DoorPoses CurrentDoorPose;
 
+    private bool isTransitionStarted;
+
     private void Start()
     {
         Debug.Log($"targetPosition: {targetPosition.position}");
     }
 
-    void Update()
+    private void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Левая кнопка мыши
+        if (isTransitionStarted) return;
+
+        if (Input.GetMouseButtonDown(0))
         {
-            // Создаем луч из камеры в точку клика
             Vector2 mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
 
-            Debug.Log("Левая кнопка нажата!");
-
-            if (hit.collider != null)
+            if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
-                Debug.Log("Во что-то попали...");
-                if (hit.collider.gameObject == gameObject)
+                isTransitionStarted = true;
+
+                PnC_Player.inst.controller.MoveTo(targetPosition.position, () =>
                 {
-                    Debug.Log("Идём к двери!");
-                    
-                    PnC_Player.inst.controller.MoveTo(targetPosition.position, () => 
-                    { 
-                        ToTheNextLevel.Invoke();
-                        Stats.Instance.door = CurrentDoorPose;
-                    });
-                }
+                    ToTheNextLevel.Invoke();
+                    Stats.Instance.door = CurrentDoorPose;
+                });
             }
         }
     }

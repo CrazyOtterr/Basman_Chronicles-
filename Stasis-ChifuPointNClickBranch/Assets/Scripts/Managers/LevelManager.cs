@@ -6,6 +6,14 @@ public class LevelManager : MonoBehaviour
     public void LoadLevel(int index)
     {
         Debug.Log($"Downloading Scene: {index}");
-        SceneManager.LoadScene(index);
+
+        if (FadeTransitionManager.Instance != null)
+        {
+            FadeTransitionManager.Instance.LoadLevelWithFade(index);
+        }
+        else
+        {
+            SceneManager.LoadScene(index);
+        }
     }
 }
