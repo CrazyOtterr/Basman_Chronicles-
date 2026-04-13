@@ -109,6 +109,16 @@ namespace DialogueEditor
 
         private void Update()
         {
+            //---------------------Пропуск по клику-----------------------
+            if (Input.GetMouseButtonDown(0) && m_state == eState.ScrollingText)
+            {
+                DialogueText.maxVisibleCharacters = m_targetScrollTextCount;
+
+                SetState(eState.TransitioningOptionsOn);
+                return;
+            }
+            //------------------------------------------------------------
+
             switch (m_state)
             {
                 case eState.TransitioningDialogueBoxOn:
@@ -161,6 +171,22 @@ namespace DialogueEditor
             if (OnConversationEnded != null)
                 OnConversationEnded.Invoke();
         }
+
+        //-----------------------------------------------------------
+        public void SkipTextAndContinue()
+        {
+            if (m_state == eState.ScrollingText)
+            {
+                DialogueText.maxVisibleCharacters = m_targetScrollTextCount;
+
+                m_elapsedScrollTime = 0f;
+                m_scrollIndex = m_targetScrollTextCount;
+
+                SetState(eState.TransitioningOptionsOn);
+                return;
+            }
+        }
+        //-----------------------------------------------------------
 
         public void SelectNextOption()
         {

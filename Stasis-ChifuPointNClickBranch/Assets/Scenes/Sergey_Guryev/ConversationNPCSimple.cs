@@ -1,9 +1,10 @@
 using UnityEngine;
 
-public class ConversationNPCSimple : MonoBehaviour //появление нпс для диалога
+public class ConversationNPCSimple : MonoBehaviour //спрайт собеседника появляется во время диалога
 {
     [Header("Appearance")]
     public Sprite npcSprite;
+    public float disappearDelay;
 
     private SpriteRenderer spriteRenderer;
 
@@ -16,17 +17,33 @@ public class ConversationNPCSimple : MonoBehaviour //появление нпс для диалога
         if (npcSprite != null)
             spriteRenderer.sprite = npcSprite;
 
-        gameObject.SetActive(false);
+        Color color = spriteRenderer.color;
+        color.a = 0f;
+        spriteRenderer.color = color;
     }
 
     public void Appear()
     {
-        gameObject.SetActive(true);
-    }
+        if (spriteRenderer == null)
+            spriteRenderer = GetComponent<SpriteRenderer>();
 
+        Color color = spriteRenderer.color;
+        color.a = 1f;
+        spriteRenderer.color = color;
+    }
 
     public void Disappear()
     {
-        gameObject.SetActive(false);
+        if (spriteRenderer == null)
+            spriteRenderer = GetComponent<SpriteRenderer>();
+
+        Color color = spriteRenderer.color;
+        color.a = 0f;
+        spriteRenderer.color = color;
+    }
+
+    public void DisappearWithDelay()
+    {
+        Invoke(nameof(Disappear), disappearDelay);
     }
 }
