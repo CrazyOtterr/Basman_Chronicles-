@@ -6,15 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Sergey_Guryev/Level0_Conv/OurCabinet.unity
+    guid: ae40a8c4c0252c6438b4778c0056401d
+  - enabled: 1
+    path: Assets/Scenes/Sergey_Guryev/Level0_Conv/ColleagueCabinet.unity
+    guid: 6ec2bc0f618d72341a58930a591d7262
+  - enabled: 1
+    path: Assets/Scenes/Sergey_Guryev/Level0_Conv/TimeMachine.unity
+    guid: f0ba14ac60f49a248ab2ab6d903c6ecb
+  - enabled: 1
+    path: Assets/Scenes/Sergey_Guryev/Level0_Conv/Corridor.unity
+    guid: 179a7610dc73531439514baf2013f41d
+  - enabled: 0
     path: Assets/Scenes/Level0/OurCabinet.unity
     guid: 3f5ff5fee077b0c40b8f9ce7d9ac1863
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level0/ColleagueCabinet.unity
     guid: eaaff368fb5f9964aa6b0bd8ed68bdbe
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level0/TimeMachine.unity
     guid: 8a6adb9800cafa24fbe1d6193698b64e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level0/Corridor.unity
     guid: 12319c7b1724adc4b8a84be74ab72436
   - enabled: 0

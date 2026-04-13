@@ -1,7 +1,9 @@
+using DialogueEditor;
 using UnityEngine;
 
 public class Docs : MonoBehaviour
 {
+    public NPCConversation conversation; // הטאכמד ןמסכו ןמהבמנא
     void Start()
     {
         if (Stats.Instance != null)
@@ -12,6 +14,7 @@ public class Docs : MonoBehaviour
     {
         if (Stats.Instance != null)
             Stats.Instance.isDocsPicked = true;
+        ConversationManager.Instance.StartConversation(conversation);
         Destroy(gameObject);
     }
 }

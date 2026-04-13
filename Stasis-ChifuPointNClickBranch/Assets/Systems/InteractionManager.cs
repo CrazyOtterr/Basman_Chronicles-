@@ -24,16 +24,28 @@ public class InteractionManager : MonoBehaviour {
     public ClickableThing GetClickable(string name) => sceneClickables[name];
 
     private void HandleInteractions() {
-        if (!Input.GetMouseButtonDown(0)) return;
-        if (isLocked) return;
+        if (!Input.GetMouseButtonDown(0))
+        {
+            return;
+        }
+        if (isLocked)
+        {
+            Debug.Log("Управление залочено!");
+            return;
+        }
+            
         //if (DialogueSystem.inst.IsFrozen()) return;
         List<GameObject> objects = ScreenUtils.GetObjectsUnderMouse();
+        Debug.Log($"Найдено объектов под мышью: {objects.Count}");
         for (int i = 0; i < objects.Count; i++) {
             PnC_InteractiveItem clickable = objects[i].GetComponent<PnC_InteractiveItem>();
             if (clickable == null) continue;
+            Debug.Log($"  - Клик по {objects[i].name}");
             clickable.HandleClick();
             return;
         }
+
+        Debug.Log("Не найдено ни одного интерактивного объекта под мышью");
     }
 
     private void Awake() {
