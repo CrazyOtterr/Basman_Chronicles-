@@ -93,9 +93,9 @@ public class PnC_PlayerController : MonoBehaviour
             /*if(animator.GetInteger("state") != 0)
             {
                 animator.SetInteger("state", 0);
-                //Debug.Log("Закончили");
+                //Debug.Log("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
             }*/
-            animator.SetBool("IsWalk", false);
+            if (animator != null) animator.SetBool("IsWalk", false);
             return;
         }
         //Move to next point in path
@@ -108,13 +108,13 @@ public class PnC_PlayerController : MonoBehaviour
         /*if (animator.GetInteger("state") != (direction.normalized.x > 0 ? 1 : 2))
         {
             animator.SetInteger("state", direction.normalized.x > 0 ? 1 : 2);
-            //Debug.Log("Идёмс. . . ");
+            //Debug.Log("пїЅпїЅпїЅпїЅ. . . ");
         }*/
         if (playerSprite.flipX != (direction.normalized.x > 0 ? false : true))
         {
             playerSprite.flipX = (direction.normalized.x > 0 ? false : true);
         }
-        animator.SetBool("IsWalk", true);
+        if (animator != null) animator.SetBool("IsWalk", true);
         //PlayWalkingSounds();
         if (Vector2.Distance(targetPosition, transform.position) < minTargetDistance) {
             //If point is last
