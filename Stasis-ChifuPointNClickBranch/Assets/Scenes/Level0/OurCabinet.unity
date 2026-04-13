@@ -3632,6 +3632,7 @@ MonoBehaviour:
         m_CallState: 2
   mainCamera: {fileID: 1480023488}
   targetPosition: {fileID: 471468693677830262}
+  CurrentDoorPose: 0
 --- !u!4 &2879713639803790261
 Transform:
   m_ObjectHideFlags: 0
