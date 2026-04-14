@@ -169,4 +169,16 @@ public class PnC_PlayerController : MonoBehaviour
         Mouse
     }
     public void ChangeInputLocked(bool v) => isForcedInputLock = v;
+
+    public void LockControls()
+    {
+        ChangeInputLocked(true);
+        InteractionManager.inst.isLocked = true;
+    }
+
+    public void UnlockControls()
+    {
+        ChangeInputLocked(false);
+        InteractionManager.inst.isLocked = false;
+    }
 }

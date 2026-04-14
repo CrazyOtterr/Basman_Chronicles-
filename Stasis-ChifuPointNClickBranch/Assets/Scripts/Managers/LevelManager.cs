@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    public void LoadLevel(int index)
+    public static void LoadLevel(int index)
     {
         Debug.Log($"Downloading Scene: {index}");
 

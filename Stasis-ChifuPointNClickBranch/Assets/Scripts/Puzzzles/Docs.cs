@@ -14,7 +14,9 @@ public class Docs : MonoBehaviour
     {
         if (Stats.Instance != null)
             Stats.Instance.isDocsPicked = true;
-        ConversationManager.Instance.StartConversation(conversation);
+        ConversationManager.Instance.StartConversation(conversation); // вкл диалог
+        Warden.isAppear = true; // вкл начальника
+        WardenNoiseController.Instance.audioSource.Play(); // вкл звук начальника
         Destroy(gameObject);
     }
 }

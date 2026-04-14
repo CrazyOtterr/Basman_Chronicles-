@@ -35,6 +35,7 @@ public class InteractionManager : MonoBehaviour {
         }
             
         //if (DialogueSystem.inst.IsFrozen()) return;
+
         List<GameObject> objects = ScreenUtils.GetObjectsUnderMouse();
         Debug.Log($"Найдено объектов под мышью: {objects.Count}");
         for (int i = 0; i < objects.Count; i++) {

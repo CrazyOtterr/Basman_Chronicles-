@@ -12,6 +12,7 @@ TagManager:
   - isFront
   - isBack
   - Enemy
+  - StopWarden
   layers:
   - Default
   - TransparentFX
