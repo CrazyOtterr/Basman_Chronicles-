@@ -15,7 +15,8 @@ public class Stats : MonoBehaviour
         OurCabinet,
         ColleagueCabinet,
         TimeMachine,
-        Corridor
+        Corridor,
+        CuriousCollegue
     }
 
     private void Awake()
